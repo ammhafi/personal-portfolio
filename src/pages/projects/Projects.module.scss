@@ -1,0 +1,99 @@
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: var(--font-family);
+
+    .heading {
+        margin: 10px auto;
+    }
+
+    .categories {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+
+        button {
+            width: 15%;
+            font-family: var(--font-family);
+            height: 48px;
+            background: orangered;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+
+            margin: 0 10px;
+            &:hover {
+                transition: all 0.3s;
+                background: var(--color-subtext);
+            }
+        }
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+
+        .box {
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+                .overlay, .overlay::after {
+                    opacity: 0.8;
+                }
+            }
+
+            .image {
+                height: 100%;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    // border-radius: 20px 0;
+
+                }
+            }
+
+            .overlay {
+                position: absolute;
+                color: white;
+                top: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                padding: 50px;
+                text-align: center;
+                cursor: pointer;
+                transition: 0.5s;
+                z-index: 2;
+            }
+
+            .overlay::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #151515;
+                opacity: 0;
+                transition: 0.5s;
+                z-index: -1;
+              }
+        }
+    }
+}

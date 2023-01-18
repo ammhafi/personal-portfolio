@@ -1,0 +1,100 @@
+.contact {
+    background-image: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, var(--color-bg) 73.22%, #08090A 99.74%), url('../../assets/contact-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-family: var(--font-family);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 4rem 10rem 4rem 42%;
+
+    .heading {
+        height: 8%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-weight: 700;
+        }
+
+    }
+
+    .content {
+        height: 92%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            padding-top: 2rem;
+
+            width: 100%;
+
+            .flex {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                // margin-bottom: 1rem;
+                input {
+                    width: 49%;
+                }
+            }
+
+            input, textarea, button {
+                width: 100%;
+                margin-bottom: 1rem;
+
+                padding: 1rem;
+                font-family: var(--font-family);
+                border-radius: 2px;
+                border: none;
+                font-weight: 600;
+                color: #fff;
+                background: radial-gradient(circle at 30% -100%,#042c54 25%,#042c54 85%,#1b78de 100%);
+
+                &:focus {
+                    background: #fff;
+                    color: #000;
+                    transition: all 0.3s;
+                }
+            }
+
+            input, button {
+                height: 50px;
+            }
+
+            button {
+                background: orangered;
+                border: none;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 700;
+                cursor: pointer;
+
+                &:hover {
+                    transition: all 0.3s;
+                    background: rgba(255, 60, 0, 0.479);
+                }
+            }
+        }
+    }
+
+}

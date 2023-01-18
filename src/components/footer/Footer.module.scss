@@ -1,0 +1,47 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    .top {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .socmed {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        a {
+            margin: auto 10px;
+
+            &:hover {
+                transition: all 0.3s;
+                opacity: 0.4;
+            }
+        }
+    }
+
+    .bottom {
+        width: 100%;
+        border-top: 1px solid white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+}
