@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c2ccc29d.css",
-    "main.js": "/static/js/main.7f5f7530.js",
+    "main.js": "/static/js/main.61461ebf.js",
     "static/media/itb.jpg": "/static/media/itb.3255a88b2eb9954774af.jpg",
     "static/media/banner-bg.jpg": "/static/media/banner-bg.90ed48fb9807910add8d.jpg",
     "static/media/syahrutravel.PNG": "/static/media/syahrutravel.4b261a6ef7ef772d1288.PNG",
@@ -22,10 +22,10 @@
     "static/media/vercel.svg": "/static/media/vercel.92c172f3cac1b86bd80d0ff64dc77317.svg",
     "index.html": "/index.html",
     "main.c2ccc29d.css.map": "/static/css/main.c2ccc29d.css.map",
-    "main.7f5f7530.js.map": "/static/js/main.7f5f7530.js.map"
+    "main.61461ebf.js.map": "/static/js/main.61461ebf.js.map"
   },
   "entrypoints": [
     "static/css/main.c2ccc29d.css",
-    "static/js/main.7f5f7530.js"
+    "static/js/main.61461ebf.js"
   ]
 }
