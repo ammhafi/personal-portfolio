@@ -27,7 +27,7 @@ const About = () => {
                 </div>
             </div>
             <button><a 
-            href='https://drive.google.com/file/d/1ogFOEOx85OUitNiBHr3zgZI1emFwMa2D/view?usp=share_link'
+            href='https://drive.google.com/file/d/17g_mrkntzjVBJDOFjBgj7K1z2aKaIrTh/view?usp=share_link'
             target="_blank"
             rel="noreferrer">
                 Download CV</a></button>
