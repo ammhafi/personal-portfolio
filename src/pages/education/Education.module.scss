@@ -92,3 +92,31 @@
         }
     }
 }
+
+@media screen and (max-width:1050px) {
+    .education {
+        height: 100%;
+        padding: 2rem 3rem;
+
+        .subject {
+            font-size: 10px;
+        }
+        .campus {
+            font-size: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .education {
+        .title {
+            text-align: justify;
+        }
+        .box {
+            flex-direction: column !important;
+            .image, .desc {
+                width: 100% !important;
+            }
+        }
+    }
+}

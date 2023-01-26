@@ -120,6 +120,9 @@
 
 @media screen and (max-width:1050px) {
     .header {
+        background: url('../../assets/banner-bg-mini.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
         .content {
             margin: 0 0 3rem;
 

@@ -96,5 +96,17 @@
             }
         }
     }
+}
 
+@media screen and (max-width:1050px) {
+    .contact {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .contact {
+        height: 100%;
+        padding: 2rem;
+    }
 }

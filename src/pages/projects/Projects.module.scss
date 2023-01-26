@@ -16,7 +16,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 40px auto;
+        margin: 2rem auto;
 
         button {
             width: 15%;
@@ -25,6 +25,7 @@
             background: orangered;
             border: none;
             color: #fff;
+            border-radius: 8px;
             font-size: 16px;
             font-weight: 700;
             cursor: pointer;
@@ -58,8 +59,7 @@
                 img {
                     width: 100%;
                     height: 100%;
-                    // border-radius: 20px 0;
-
+                    border-radius: 8px;
                 }
             }
 
@@ -94,6 +94,25 @@
                 transition: 0.5s;
                 z-index: -1;
               }
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .projects {
+        .content {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .projects {
+        button {
+            width: 10rem !important;
+        }
+        .content {
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 }

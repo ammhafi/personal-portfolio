@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2ccc29d.css",
-    "main.js": "/static/js/main.61461ebf.js",
-    "static/media/itb.jpg": "/static/media/itb.3255a88b2eb9954774af.jpg",
+    "main.css": "/static/css/main.282ada45.css",
+    "main.js": "/static/js/main.338c5817.js",
     "static/media/banner-bg.jpg": "/static/media/banner-bg.90ed48fb9807910add8d.jpg",
+    "static/media/banner-bg-mini.jpg": "/static/media/banner-bg-mini.5b04d9d3ed70b44b0e44.jpg",
     "static/media/syahrutravel.PNG": "/static/media/syahrutravel.4b261a6ef7ef772d1288.PNG",
     "static/media/etuku.PNG": "/static/media/etuku.ed87e90f3d1d309b479b.PNG",
     "static/media/gamepage.PNG": "/static/media/gamepage.6a715be198f216ec2b8a.PNG",
     "static/media/gptx.PNG": "/static/media/gptx.5031f4868032863cf3f3.PNG",
     "static/media/calc.PNG": "/static/media/calc.b44c26676beb74a215ea.PNG",
     "static/media/ai.png": "/static/media/ai.96f640bb0444b285a725.png",
-    "static/media/binaracademy.jpg": "/static/media/binaracademy.a4ccf065d859b04a3ff9.jpg",
+    "static/media/itb.jpg": "/static/media/itb.56199472d20a6cdf082b.jpg",
     "static/media/contact-bg.jpg": "/static/media/contact-bg.b9989656043891c3b81b.jpg",
     "static/media/profile2.jpg": "/static/media/profile2.7119bda33483474fdda7.jpg",
+    "static/media/binaracademy.jpg": "/static/media/binaracademy.925eef58f593b4522c31.jpg",
     "static/media/people.png": "/static/media/people.5cd2d6fbcd48bd63f106.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -21,11 +22,11 @@
     "static/media/meter3.svg": "/static/media/meter3.6de021845b7be73f65cfed92e1d8b779.svg",
     "static/media/vercel.svg": "/static/media/vercel.92c172f3cac1b86bd80d0ff64dc77317.svg",
     "index.html": "/index.html",
-    "main.c2ccc29d.css.map": "/static/css/main.c2ccc29d.css.map",
-    "main.61461ebf.js.map": "/static/js/main.61461ebf.js.map"
+    "main.282ada45.css.map": "/static/css/main.282ada45.css.map",
+    "main.338c5817.js.map": "/static/js/main.338c5817.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2ccc29d.css",
-    "static/js/main.61461ebf.js"
+    "static/css/main.282ada45.css",
+    "static/js/main.338c5817.js"
   ]
 }
