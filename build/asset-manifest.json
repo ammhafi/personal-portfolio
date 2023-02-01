@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.282ada45.css",
-    "main.js": "/static/js/main.338c5817.js",
+    "main.js": "/static/js/main.6a1dfd46.js",
     "static/media/banner-bg.jpg": "/static/media/banner-bg.90ed48fb9807910add8d.jpg",
     "static/media/banner-bg-mini.jpg": "/static/media/banner-bg-mini.5b04d9d3ed70b44b0e44.jpg",
     "static/media/syahrutravel.PNG": "/static/media/syahrutravel.4b261a6ef7ef772d1288.PNG",
     "static/media/etuku.PNG": "/static/media/etuku.ed87e90f3d1d309b479b.PNG",
     "static/media/gamepage.PNG": "/static/media/gamepage.6a715be198f216ec2b8a.PNG",
+    "static/media/maicub.PNG": "/static/media/maicub.31243140c0eb21fabca2.PNG",
     "static/media/gptx.PNG": "/static/media/gptx.5031f4868032863cf3f3.PNG",
     "static/media/calc.PNG": "/static/media/calc.b44c26676beb74a215ea.PNG",
     "static/media/ai.png": "/static/media/ai.96f640bb0444b285a725.png",
@@ -23,10 +24,10 @@
     "static/media/vercel.svg": "/static/media/vercel.92c172f3cac1b86bd80d0ff64dc77317.svg",
     "index.html": "/index.html",
     "main.282ada45.css.map": "/static/css/main.282ada45.css.map",
-    "main.338c5817.js.map": "/static/js/main.338c5817.js.map"
+    "main.6a1dfd46.js.map": "/static/js/main.6a1dfd46.js.map"
   },
   "entrypoints": [
     "static/css/main.282ada45.css",
-    "static/js/main.338c5817.js"
+    "static/js/main.6a1dfd46.js"
   ]
 }
