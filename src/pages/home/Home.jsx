@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './Home.module.scss'
 import people from '../../assets/people.png'
 import Typewriter from "typewriter-effect"
 import bannerImg from '../../assets/ai.png'
 
 const Home = () => {
+
   return (
     <div className={`${styles.header} section__padding`} id="home">
         <div className={styles.content}>
