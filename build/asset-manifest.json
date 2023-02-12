@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.282ada45.css",
-    "main.js": "/static/js/main.b794b349.js",
+    "main.js": "/static/js/main.6d89e4cb.js",
     "static/media/banner-bg.jpg": "/static/media/banner-bg.90ed48fb9807910add8d.jpg",
     "static/media/banner-bg-mini.jpg": "/static/media/banner-bg-mini.5b04d9d3ed70b44b0e44.jpg",
     "static/media/syahrutravel.PNG": "/static/media/syahrutravel.4b261a6ef7ef772d1288.PNG",
@@ -9,6 +9,7 @@
     "static/media/resto.PNG": "/static/media/resto.38bf08d010d1e1bbc0ce.PNG",
     "static/media/maicub.PNG": "/static/media/maicub.31243140c0eb21fabca2.PNG",
     "static/media/gptx.PNG": "/static/media/gptx.5031f4868032863cf3f3.PNG",
+    "static/media/crowdfund.PNG": "/static/media/crowdfund.5f6adf31de2009e4c46f.PNG",
     "static/media/calc.PNG": "/static/media/calc.b44c26676beb74a215ea.PNG",
     "static/media/binargames.PNG": "/static/media/binargames.4870e077c7ccf699ab23.PNG",
     "static/media/ai.png": "/static/media/ai.96f640bb0444b285a725.png",
@@ -25,10 +26,10 @@
     "static/media/vercel.svg": "/static/media/vercel.92c172f3cac1b86bd80d0ff64dc77317.svg",
     "index.html": "/index.html",
     "main.282ada45.css.map": "/static/css/main.282ada45.css.map",
-    "main.b794b349.js.map": "/static/js/main.b794b349.js.map"
+    "main.6d89e4cb.js.map": "/static/js/main.6d89e4cb.js.map"
   },
   "entrypoints": [
     "static/css/main.282ada45.css",
-    "static/js/main.b794b349.js"
+    "static/js/main.6d89e4cb.js"
   ]
 }
