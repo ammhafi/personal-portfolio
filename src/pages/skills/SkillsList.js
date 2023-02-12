@@ -105,10 +105,6 @@ const SkillsList = [
       name: "ViteJS",
       icon: "https://api.iconify.design/logos/vitejs.svg"
     }, 
-    {
-      name: "thirdweb",
-      icon: "https://seeklogo.com/images/T/thirdweb-logo-A5219DC0EE-seeklogo.com.png"
-    }, 
 ]
 
 export default SkillsList
