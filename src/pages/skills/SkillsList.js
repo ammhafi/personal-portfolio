@@ -100,7 +100,15 @@ const SkillsList = [
     {
       name: "WordPress",
       icon: "https://img.icons8.com/color/48/000000/wordpress.png"
-    }    
+    }, 
+    {
+      name: "ViteJS",
+      icon: "https://api.iconify.design/logos/vitejs.svg"
+    }, 
+    {
+      name: "thirdweb",
+      icon: "https://seeklogo.com/images/T/thirdweb-logo-A5219DC0EE-seeklogo.com.png"
+    }, 
 ]
 
 export default SkillsList

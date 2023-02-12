@@ -5,9 +5,10 @@ import projectImg4 from '../../assets/binargames.PNG'
 import projectImg5 from '../../assets/syahrutravel.PNG'
 import projectImg6 from '../../assets/maicub.PNG'
 import projectImg7 from '../../assets/resto.PNG'
+import projectImg8 from '../../assets/crowdfund.PNG'
 
 const ProjectsData = [
-    {
+  {
       id: 1,
       cover: projectImg1,
       name: "GPTX",
@@ -22,6 +23,14 @@ const ProjectsData = [
       category: "web",
       desc: "Restaurant webpage made by using pure reactJS.",
       url: 'https://restaurant-ammhafi.vercel.app/',
+  },
+  {
+    id: 8,
+    cover: projectImg8,
+    name: "Crowdfunding",
+    category: "web",
+    desc: "Web3 crowdfunding web app made by using React, Vite, Tailwind, thirdweb, etc.",
+    url: 'https://web3-ammhafi.vercel.app/'
   },
   {
     id: 3,
@@ -60,10 +69,9 @@ const ProjectsData = [
       cover: projectImg5,
       name: "Azis Travel Web",
       category: "web",
-      desc: "Travel app using ReactJS and whatsapp chat contact.",
+      desc: "Travel app made by using ReactJS and whatsapp chat contact.",
       url: 'https://syahru-travel.vercel.app/'
     },
-
 ]
 
 export default ProjectsData
